@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/image_default_photo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_scan_car_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:text="套餐详情" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_dc" />
+
+    <LinearLayout
+        android:id="@+id/ll_scan_card_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_scan_card_info"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/tv_scan_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_scan_in_out_button"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="入库"
+        android:textColor="@color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/tv_scan_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_scan_in_out_button"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="出库"
+        android:textColor="@color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/tv_scan_timeout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_scan_timeout_button"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="标注VIP卡到期"
+        android:textColor="@color/white" />
+
+</LinearLayout>

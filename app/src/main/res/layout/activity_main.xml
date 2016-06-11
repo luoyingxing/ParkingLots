@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.luo.park.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image_main_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/bg_main_layout_green"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_home_current_car_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="66"
+                android:textColor="#dff2f0"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dp"
+                android:text="当前入库车辆"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_home_remain_car_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:text="22"
+                android:textColor="#f04d4f"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dp"
+                android:text="剩余车位"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv_home_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:padding="10dp"
+        android:scrollbars="none"
+        android:verticalSpacing="16dp" />
+
+</LinearLayout>

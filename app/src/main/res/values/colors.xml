@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_color">#009688</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_main_layout_green">#55c2c9</color>
+
+    <color name="bg_scan_card_info">#ccf0ed</color>
+    <color name="bg_scan_card_button">#14b3a3</color>
+    <color name="bg_scan_card_timeout">#fb8c00</color>
+
+    <color name="bg_card_sex_button_check">#09dec9</color>
+    <color name="bg_card_sex_button_default">#dbdbdb</color>
+    <color name="bg_card_data_button">#91e3db</color>
+
+    <!-- 通用颜色  -->
+    <color name="transparent">#00000000</color>
+    <color name="translucence">#ff4e4752</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray_21">#212121</color>
+    <color name="gray_33">#333333</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_70">#707070</color>
+    <color name="gray_72">#727272</color>
+    <color name="gray_80">#808080</color>
+    <color name="gray_a8">#a8a8a8</color>
+    <color name="gray_b8">#b8b8b8</color>
+    <color name="gray_da">#dadada</color>
+    <color name="gray_dc">#dcdcdc</color>
+    <color name="gray_f7">#f7f7f7</color>
+    <color name="gray_f1">#f1f1f1</color>
+    <color name="gray_ee">#eeeeee</color>
+    <color name="gray_e3">#e3e3e3</color>
+    <color name="gray_ed">#ededed</color>
+    <color name="gray_d8">#d8d8d8</color>
+    <color name="gray_d2">#d2d2d2</color>
+    <color name="qunar_red">#ff5555</color>
+    <color name="qunar_blue">#03a9e4</color>
+    <color name="qunar_green">#7eb63d</color>
+    <color name="qunar_orange">#ff9801</color>
+    <color name="qunar_purple">#ba68c8</color>
+    <color name="qunar_cyan">#00bec8</color>
+
+    <color name="blue_d6">#d6f1ff</color>
+    <color name="blue_03">#03a9f4</color>
+    <color name="blue_a6">#a6e3ff</color>
+    <color name="blue_c7">#c7fffc</color>
+
+
+    <color name="primary_red">#f44336</color>
+    <color name="primary_pink">#e91e63</color>
+
+</resources>
